@@ -72,7 +72,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image\ \(1\).webp) no-repeat center center;
+    background: url('../images/hero-image\ \(1\).webp') no-repeat center center;
 
     /* animates zoom effect of loading page*/
     animation-name: hero-zoom;
@@ -188,8 +188,8 @@ hr {
 
 /* event times */
 
-#times{
-    background-image: url(../images/dublin-city.webp); 
+#times {
+    background-image: url('../images/dublin-city.webp'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -203,7 +203,7 @@ hr {
     width: 20%;
     height: 300px;
     float: left;
-    padding-top: 30px 0 0 10px;
+    padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
@@ -215,7 +215,7 @@ hr {
 
 /* Footer */
 
-#footer {
+footer {
     height: 150px;
 }
 
@@ -235,7 +235,7 @@ hr {
 }
 /* gallery */
 
-#photos{
+#photos {
     clear: both;
     line-height: 0;
     column-count: 4;
@@ -250,7 +250,7 @@ hr {
 /* For larger to medium screen size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    #club-ethos{
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -293,7 +293,7 @@ hr {
         clear: left;
         float: left;
         margin-left: 30px;
-        margin-left: 20px;
+        margin-bottom: 20px;
         line-height: 25px;
     }
 
@@ -327,7 +327,7 @@ hr {
     }
 }
 
-/* for small screen sizes 800px and down*/ 
+/* for small screen sizes 800px width*/ 
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
